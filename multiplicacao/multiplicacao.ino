@@ -1,3 +1,5 @@
+/* Tabuada Multiplicação*/
+
 // incluindo as bibliotecas 
 #include <Keypad.h> //biblioteca do teclado matricial
 #include <LiquidCrystal.h> // biblioteca do display
@@ -38,8 +40,8 @@ void loop() {
  //Escolhe dois números e os exibe no LCD
  int num1 = random(2, 11);
  int num2 = random(2, 11);
- int resultado = num1 + num2;
- lcd.print(String(num1) + " + " + String(num2) + " = ");
+ int resultado = num1 * num2;
+ lcd.print(String(num1) + " * " + String(num2) + " = ");
  // Esperando a resposta do usuário e digitar o resultado
  int resposta = valorLido().toInt(); //recebe um valor no char e converte para o tipo String
  lcd.setCursor(0, 1);
