@@ -20,3 +20,7 @@
 <li> 1 potenciômetro 10K </li>
 <li> Jumpers </li>
 </ul>
+
+<h4> Circuito: </h4>
+
+![circuito](https://user-images.githubusercontent.com/43828995/113007432-98153200-914c-11eb-94c0-33923e8cd26b.png)
